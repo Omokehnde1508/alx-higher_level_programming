@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-try:
-    raise_exception()
-except TypeError as e:
-    print(e)
+def raise_exception():
+    raise TypeError("This is a my error message")
